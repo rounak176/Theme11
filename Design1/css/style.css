@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.p-30 {
+    padding: 30px 0;
+}
+
+.p-50 {
+    padding: 50px 0;
+}
+
+.p-100 {
+    padding:100px 0;
+}
+
+.theme11_banner {
+    background: url("https://images.unsplash.com/photo-1594997791780-02379aeccc46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80") center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+.theme11_banner h1 {
+    font-size: 5.5em;
+    color: #2b435e;
+    position: absolute;
+    bottom: 10px;
+   text-align: center;
+    width: 100%;
+}
+
+.theme11-head {
+    font-size: 3em ;
+    color: #2b435e;
+    text-align: center;
+}
+
+.theme11-hr {
+    width: 20%;
+    border: 0;
+    height: 3px;
+    background: #2b435e;
+    border-radius: 50%;
+}
+
+.theme11-user {
+    background: #cadadb;
+}
+
+.theme11-user img {
+    float: right;
+    width: 100%;
+}
+
+.theme11-userQuote {
+    margin: auto;
+}
+
+.theme11-userQuote>div {
+    background: #eee;
+    padding: 10px;
+}
+
+.theme11-userQuote figure {
+    background: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem !important;
+}
+
+.theme11-userQuote blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    color: #383838;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.theme11-userQuote blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: open-quote;
+    font-size: 80px;
+    color: #7a7a7a;
+    text-align: center;
+}
+
+.theme11-userQuote figure>hr {
+    width: 40%;
+    border: 0;
+    height: 3px;
+    background: #2b435e;
+    border-radius: 50%;
+}
+
+.theme11-userQuote figure>h2, .theme11-userQuote figure p  {
+    color: #2b435e;
+}
+
+.theme-11-products img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.theme-11-products h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: #2b435e;
+    font-weight: 700;
+}
+
+.theme-11-products p {
+    text-align: center;
+    padding: 10px;
+    color: #2b435e;
+    font-weight: 600;
+}
+
+.theme11-products-brief p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #2b435e;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+    .theme11-userQuote blockquote {
+        padding: 0.35em;
+    }
+}
+
+@media (max-width: 767px) {
+    .theme11-user img {
+        float: none;
+        width: 90%;
+        display: block;
+        margin: 5px auto;
+    }
+
+    .theme11-userQuote blockquote {
+        padding: 0.35em;
+    }
+
+    .theme11-userQuote>div {
+        margin: 10px auto;
+        padding: 1px;
+    }
+
+
+    .theme11-products-brief p {
+        margin-bottom: 20px;
+    }
+
+    .theme11_banner h1 {
+        font-size: 3.5em;
+    }
+
+    .theme11-head {
+        font-size: 2.5em ;
+    }
+
+}
+
