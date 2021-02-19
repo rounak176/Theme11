@@ -10,14 +10,14 @@
     background: #fff;
 }
 
-.storeLogistic-header {
+.storeLogistic-header, .order-list-header {
     padding: 10px;
     border-bottom: 2px solid #000;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
     margin-bottom: 30px;
 }
 
-.storeLogistic-header nav a {
+.storeLogistic-header nav a , .order-list-header nav a {
     color: #000;
     font-size: 1.2em;
     font-weight: 300;
@@ -150,6 +150,21 @@
     color: #c82333;
 }
 
+.order-list  {
+    width: 95%;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 10px 30px -15px #999;
+    margin: 10px 0;
+}
+
+.order-list a {
+    background: #f4f4f4;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 5px auto;
+    border-radius: 40px;
+}
+
 @media (max-width: 991px) {
     .inventory-form textarea, .made_to_order_form textarea {
         width: 65%;
@@ -175,5 +190,19 @@
 
     .inventory-form textarea, .made_to_order_form textarea {
         width: 95%;
+    }
+
+    .order-list h6 {
+        width: max-content;
+        font-size: 0.8em;
+    }
+
+    .order-list a {
+        background: #f4f4f4;
+        font-weight: 700;
+        font-size: 9px;
+        margin: 5px auto;
+        width: 100%;
+        border-radius: 40px;
     }
 }
