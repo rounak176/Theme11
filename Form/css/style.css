@@ -23,6 +23,7 @@
     font-weight: 300;
 }
 
+
 .StoreType {
     margin: auto;
     width: 75%;
@@ -50,6 +51,7 @@
 
 .StoreType a img {
     width: 100px;
+    margin-bottom: 10px;
 }
 
 .inventory-form {
@@ -114,6 +116,7 @@
     display: inline-block;
     border-radius: 6px;
     background: #dddddd;
+    font-weight: 600;
     height: 40px;
     width: 30px;
     margin-right: 3px;
@@ -123,8 +126,10 @@
 }
 
 .weekDays-selector input[type=checkbox]:checked + label {
-    background: #2AD705;
-    color: #ffffff;
+    background: #000000;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 10px 30px -15px #999;
 }
 
 .made_to_order_form {
@@ -139,4 +144,36 @@
     font-weight: 600;
     margin: auto;
     cursor: pointer;
+}
+
+.change-layout-btn:hover {
+    color: #c82333;
+}
+
+@media (max-width: 991px) {
+    .inventory-form textarea, .made_to_order_form textarea {
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .storeLogistic-section h1 {
+        font-size: 1.2em;
+    }
+
+    .StoreType {
+        padding: 10px;
+    }
+
+    .StoreType h3 {
+        font-size: 0.8em;
+    }
+
+    .StoreType img {
+        width: 80px;
+    }
+
+    .inventory-form textarea, .made_to_order_form textarea {
+        width: 95%;
+    }
 }

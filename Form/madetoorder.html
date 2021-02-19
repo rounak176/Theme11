@@ -43,8 +43,8 @@
             <form class="made_to_order_form">
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <h5 class="my-4 col-md-6">Which days do you produce on?</h5>
-                        <div class="weekDays-selector col-md-6 mx-3 d-inline">
+                        <h5 class="my-4">Which days do you produce on?</h5>
+                        <div class="weekDays-selector">
                             <input type="checkbox" id="weekday-mon" class="weekday" />
                             <label for="weekday-mon">M</label>
                             <input type="checkbox" id="weekday-tue" class="weekday" />
@@ -79,20 +79,19 @@
                            <div class="row">
                                <div class=" col-md-6">
                                    <p>Within City Time *</p>
-                                   <input type="number" class="mb-3" required>
+                                   <input type="number" class="mb-3"min="0" max="4" required>
                                </div>
                                <div class=" col-md-6">
                                    <p>Outside City Time *</p>
-                                   <input type="number" class="mb-3" required>
+                                   <input type="number" class="mb-3" min="1" max="5" required>
                                </div>
                            </div>
                         </div>
                       <div class="col-md-12 ">
                           <h5 class="my-4">Max no# of items you can cook
                               per production day?
-
                           </h5>
-                          <input type="number" required/>
+                          <input type="number" min="1" max="5" required/>
                       </div>
                         <div class="form-group col-md-12 text-center">
                             <h5 class="my-4">Additional delivery related note
@@ -101,7 +100,7 @@
                         </div>
                     </div>
             </form>
-            <button class="change-layout-btn">Change Layout</button>
+            <a class="change-layout-btn btn " href="index.html">Change Layout</a>
         </div>
     </div>
 </section>
