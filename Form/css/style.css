@@ -165,9 +165,40 @@
     border-radius: 40px;
 }
 
+.orders-desc {
+    margin: 20px auto;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.orders-desc img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.orders-desc h6>span {
+    position: absolute;
+    right: 20%;
+}
+
+.total-order-value span {
+    position: absolute;
+    right: 20%;
+}
+
 @media (max-width: 991px) {
     .inventory-form textarea, .made_to_order_form textarea {
         width: 65%;
+    }
+
+    .orders-desc h6>span {
+        right: 0;
+    }
+
+    .total-order-value span {
+        position: absolute;
+        right: 5%;
     }
 }
 
@@ -205,4 +236,18 @@
         width: 100%;
         border-radius: 40px;
     }
+
+    .orders-desc img {
+        width: 55%;
+        margin: 20px auto;
+    }
+
+    .orders-desc h6>span {
+        right: 0;
+    }
+
+    .total-order-value {
+        font-size: 1em;
+    }
+
 }
