@@ -1,0 +1,142 @@
+.made_to_order {
+    border-bottom: 1px solid #000;
+}
+
+.mto-social-contact {
+    background: #eee;
+}
+
+.made_to_order nav {
+    background: #fff;
+}
+
+.storeLogistic-header {
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+}
+
+.storeLogistic-header nav a {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.StoreType {
+    margin: auto;
+    width: 75%;
+    padding: 30px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px -15px #999;
+    transition: 0.3s ease-in-out;
+}
+
+.StoreType:hover  {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.StoreType a , .StoreType a:hover , .StoreType a:focus {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.StoreType a h3 {
+    color: #000;
+}
+
+.StoreType a img {
+    width: 100px;
+}
+
+.inventory-form {
+    padding: 20px;
+}
+
+.common-store-header .saveBtn {
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+}
+
+.common-store-header .saveBtn button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border:1px solid #f4f4f4;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: auto 25px auto auto;
+}
+
+.common-store-header nav>div {
+    border-bottom: 1px solid #000;;
+}
+
+.common-store-header img {
+    width: 60px;
+    display: block;
+    margin: 10px auto;
+}
+
+.common-store-header a {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+    margin: 15px auto;
+}
+
+.inventory-form input, .made_to_order_form input  {
+    border: 1px solid #ced4da;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.inventory-form textarea, .made_to_order_form textarea {
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    min-height: 80px;
+}
+
+
+.weekDays-selector input {
+    display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+    display: inline-block;
+    border-radius: 6px;
+    background: #dddddd;
+    height: 40px;
+    width: 30px;
+    margin-right: 3px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+    background: #2AD705;
+    color: #ffffff;
+}
+
+.made_to_order_form {
+    padding: 20px;
+}
+
+.change-layout-btn {
+    background: #fff;
+    padding: 20px;
+    color: #c82333;
+    border: none;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+}

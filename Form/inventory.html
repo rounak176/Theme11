@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="common-store-header">
+    <div class="saveBtn">
+        <div class="container">
+            <div class="row">
+                <button>Save</button>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <div class="w-100 text-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="index.html">
+                        <img src="img/inventory.png" alt="logo"/>
+                        INVENTORY and POS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="p-md-5 p-md-3">
+    <div class="container">
+        <div class="row py-3 py-md-5">
+            <form class="inventory-form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <h5 class="mb-4">Cut off time for the order to be
+                            shipped the next day?
+                        </h5>
+                        <input type="time" id="cutOff" name="cutOff"
+                               min="12:00" max="24:00" value="08:30" required/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <h5 class="mb-4">
+                            How many days will it take to
+                            reach the customer after
+                            Order date?
+                        </h5>
+
+                        <p>Within City Time *</p>
+                        <input type="number" class="mb-3" required>
+
+                        <p>Outside City Time *</p>
+                        <input type="number" class="mb-3" required>
+                    </div>
+                    <div class="form-group col-md-12 text-center">
+                        <h5 class="mb-4">Additional delivery related note
+                            for customer</h5>
+                        <textarea id="delieveryNote" required></textarea>
+                    </div>
+                </div>
+            </form>
+            <a class="change-layout-btn btn " href="index.html">Change Layout</a>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="../res/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</body>
+</html>
