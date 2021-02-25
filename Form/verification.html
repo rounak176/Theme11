@@ -5,41 +5,49 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inventory Management</title>
+    <title>Verification</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="css/inventory-mgmt.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="common-inventory-header">
+<header class="storeLogistic-header">
     <nav class="navbar navbar-expand-md">
         <div class="container">
             <div class="w-100 text-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a href="index.html" class="m-auto">Inventory Management</a>
+                    <a href="index.html" class="m-auto">Store Logistics</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
 
-<section class="p-md-5 p-3">
+<section class="p-md-5 p-md-3">
     <div class="container">
-        <div class="row inventory-management">
-           <div class="col-md-6 m-auto">
-               <h5>Order-Taking Preferences</h5>
-           </div>
-            <div class="col-md-6 m-auto">
-                <h5>Offiline Sale</h5>
-                <a href="#" class="btn btn-block">
-                    Book Offline Sale
-                </a>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-center">
+                <h2 class="mb-md-4 mb-3">Verify E-mail </h2>
+                <p class="otp-subhead">Please enter the verification code
+                    sent to romilmeghani@gmail.com</p>
+                <form>
+                    <input type="text" class="verication-otp-input" placeholder="12345"/>
+                </form>
+                <a class="btn verify-submit-btn" href="#">Continue</a>
+                <div class="d-inline-flex flex-wrap justify-content-center">
+                    <a href="#" class="verification-resend-link">Resend Code</a>
+                    <a href="#" class="verification-changemail-link">Change E-mail</a>
+                </div>
+                <p class="mt-3">
+                    By Signing in, I agree to the <a href="#">Terms & Conditions</a>
+                </p>
             </div>
-            <div class=""
+            <div class="col-md-3"></div>
         </div>
     </div>
 </section>

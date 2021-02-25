@@ -1,0 +1,92 @@
+.payment-login {
+    background: #fff5f5;
+}
+
+.verification-embedded-form {
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.verication-otp-input {
+    width: 60%;
+    border:none;
+    border-bottom: 2px solid #000;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.otp-subhead {
+    width: 65%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.verify-submit-btn , .verify-submit-btn:hover , .verify-submit-btn:focus {
+    display: block;
+    border: 2px solid #ff6060;
+    background: #ff6060;
+    color: #fff;
+    font-weight: 500;
+    border-radius: unset;
+    text-align: center;
+    width: 70%;
+    font-size: 0.9em;
+    margin: 25px auto;
+}
+
+.verification-changemail-link , .verification-resend-link {
+    display: block;
+    border-radius: unset;
+    color:#90a4ae;
+    text-align: center;
+    margin: auto 50px;
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+
+.order-details-prepayment, .order-total-prepayment {
+    padding: 20px 0;
+    border-bottom: 1px solid #c1d5e0;
+}
+
+.order-details-prepayment img{
+    width: 70%;
+    float: right;
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.order-details-prepayment p {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000;
+}
+
+.order-total-prepayment p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #90a4ae;
+}
+
+.total-value {
+    padding: 20px 0;
+}
+
+.total-value p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #90a4ae;
+}
+
+@media (max-width: 768px){
+    .order-details-prepayment img {
+        width: 30%;
+        display: block;
+        margin: auto;
+        float: unset;
+    }
+}

@@ -1,0 +1,34 @@
+.common-inventory-header {
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+}
+
+.common-inventory-header nav a {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.inventory-management {
+    padding: 20px 0;
+}
+
+.inventory-management h5 {
+    display: block;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.inventory-management a {
+    background: #fff;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    border: 1px solid #999;
+    box-shadow: 0 10px 30px -15px #999;
+}

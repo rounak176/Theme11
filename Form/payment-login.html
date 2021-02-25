@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>payment login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment-login.css">
+</head>
+<body>
+
+<header class="storeLogistic-header">
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <div class="w-100 text-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="index.html" class="m-auto">Store Logistics</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="payment-login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 text-center verification-embedded-form">
+                <h2 class="mb-md-4 mb-3">Verify E-mail </h2>
+                <p class="otp-subhead">Please enter the verification code
+                    sent to romilmeghani@gmail.com</p>
+                <form>
+                    <input type="text" class="verication-otp-input" placeholder="12345"/>
+                </form>
+                <a class="btn verify-submit-btn" href="#">Continue</a>
+                <div class="d-inline-flex flex-wrap justify-content-center">
+                    <a href="#" class="verification-resend-link">Resend Code</a>
+                    <a href="#" class="verification-changemail-link">Change E-mail</a>
+                </div>
+                <a href="#null" class="btn verify-submit-btn disabled" >Make Payment</a>
+            </div>
+            <div class="col-md-8 p-md-5 p-3 m-auto">
+                <div class="container">
+                    <div class="row order-details-prepayment">
+                        <div class="col-md-2">
+                            <img src="img/cooking.png"/>
+                        </div>
+                        <div class="col-md-7 m-auto">
+                            <p>Actual Product name
+                                here [200 gram]</p>
+                        </div>
+                        <div class="col-md-3 m-auto">
+                            <h5>Rs. 999/-</h5>
+                        </div>
+                    </div>
+                    <div class="row order-total-prepayment">
+                        <div class="col-md-9 m-auto">
+                            <p>Sub-Total</p>
+                        </div>
+                        <div class="col-md-3 m-auto">
+                            <h5>Rs. 999/-</h5>
+                        </div>
+                        <div class="col-md-9 m-auto">
+                            <p>Shipping</p>
+                        </div>
+                        <div class="col-md-3 m-auto">
+                            <h5>Rs. 100/-</h5>
+                        </div>
+                    </div>
+                    <div class="row total-value">
+                        <div class="col-md-9">
+                            <p>Total</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2>Rs. 1099/-</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="../res/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</body>
+</html>

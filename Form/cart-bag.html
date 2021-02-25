@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Bag</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart-bag.css">
+</head>
+<body>
+
+<header class="storeLogistic-header">
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <div class="w-100 text-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="index.html" class="m-auto">Store Logistics</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="p-md-5 p-md-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-md-4 mb-3">Your Bag</h2>
+                <table class="cart-table">
+                    <tr>
+                        <th class="w-65"><h5>Product</h5></th>
+                        <th><h5>Quanitity</h5></th>
+                        <th><h5>Total</h5></th>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            <div class="row w-100">
+                                <div class="col-md-2">
+                                    <img src="img/cooking.png" alt="product#" class="bag-product-img"/>
+                                </div>
+                                <div class="col-md-10 text-left m-auto">
+                                    <p class="d-block mb-1">Actual Product name here [200 gram]</p>
+                                    <h5>INR. 266/-</h5>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="decrement()" class="quantity-input-button"/>
+                            <input id="demoInput" max="10" min="0" placeholder="0" class="quantity-input" type="number"/>
+                            <input type="button" value="+" onclick="increment()"class="quantity-input-button"/>
+                        </td>
+                        <td><h6>Rs 299  </h6></td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            <div class="row w-100">
+                                <div class="col-md-2">
+                                    <img src="img/cooking.png" alt="product#" class="bag-product-img"/>
+                                </div>
+                                <div class="col-md-10 text-left m-auto">
+                                    <p class="d-block mb-1">Actual Product name here [200 gram]</p>
+                                    <h5>INR. 266/-</h5>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="decrement()" class="quantity-input-button"/>
+                            <input id="demoInput2" max="10" min="0" value="0" class="quantity-input"/>
+                            <input type="button" value="+" onclick="increment()"class="quantity-input-button"/>
+                        </td>
+                        <td><h6>Rs 299  </h6></td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            <div class="row w-100">
+                                <div class="col-md-2">
+                                    <img src="img/cooking.png" alt="product#" class="bag-product-img"/>
+                                </div>
+                                <div class="col-md-10 text-left m-auto">
+                                    <p class="d-block mb-1">Actual Product name here [200 gram]</p>
+                                    <h5>INR. 266/-</h5>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="decrement()" class="quantity-input-button"/>
+                            <input id="demoInput3" max="10" min="0" value="0" class="quantity-input"/>
+                            <input type="button" value="+" onclick="increment()"class="quantity-input-button"/>
+                        </td>
+                        <td><h6>Rs 299  </h6></td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            <div class="row w-100">
+                                <div class="col-md-2">
+                                    <img src="img/cooking.png" alt="product#" class="bag-product-img"/>
+                                </div>
+                                <div class="col-md-10 text-left m-auto">
+                                    <p class="d-block mb-1">Actual Product name here [200 gram]</p>
+                                    <h5>INR. 266/-</h5>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="decrement()" class="quantity-input-button"/>
+                            <input id="demoInput4" max="10" min="0" value="0" class="quantity-input"/>
+                            <input type="button" value="+" onclick="increment()"class="quantity-input-button"/>
+                        </td>
+                        <td><h6>Rs 299  </h6></td>
+                    </tr>
+                    <tr>
+                        <td class="p-3">
+                            <div class="row w-100">
+                                <div class="col-md-2">
+                                    <img src="img/cooking.png" alt="product#" class="bag-product-img"/>
+                                </div>
+                                <div class="col-md-10 text-left m-auto">
+                                    <p class="d-block mb-1">Actual Product name here [200 gram]</p>
+                                    <h5>INR. 266/-</h5>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="decrement()" class="quantity-input-button"/>
+                            <input id="demoInput5" max="10" min="0" value="0" class="quantity-input"/>
+                            <input type="button" value="+" onclick="increment()"class="quantity-input-button"/>
+                        </td>
+                        <td><h6>Rs 299  </h6></td>
+                    </tr>
+                </table>
+                <h5 class="text-md-right text-center my-3">Total : Rs 2699/-</h5>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script>
+    function increment() {
+        document.getElementById('demoInput').stepUp();
+    }
+    function decrement() {
+        document.getElementById('demoInput').stepDown();
+    }
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="../res/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</body>
+</html>

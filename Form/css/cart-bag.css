@@ -1,0 +1,40 @@
+.w-65 {
+    width: 65%;
+}
+
+.bag-product-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid #90a4ae;
+    padding: 10px;
+}
+
+.cart-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.cart-table .quantity-input {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: unset;
+    margin: auto 0;
+    border: 1px solid #90a4ae;
+    background: #fff;
+    vertical-align: center;
+}
+
+.cart-table .quantity-input-button, .quantity-input-button:focus{
+    height: 20px;
+    border: 1px solid #90a4ae;
+    background: #fff;
+    width: 20px;
+    font-size: 12px;
+    line-height: unset;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: initial;
+    outline: unset;
+}
