@@ -1,0 +1,107 @@
+.common-inventory-header {
+    padding: 10px;
+    border-bottom: 2px solid #000;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+}
+
+.common-inventory-header nav a , .common-inventory-header nav a:hover {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    margin: auto;
+}
+
+.confirmBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border:1px solid #f4f4f4;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: auto 25px auto auto;
+}
+
+.offlineSale-form>div>div {
+    margin: 10px auto;
+}
+
+.offlineSale-form > div > div > label {
+    display: block;
+    color: #999;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.offlineSale-form div>input {
+    font-size:14px;
+    padding:10px 4px;
+    display:block;
+    width:100%;
+    height:50px;
+    background-color: #fff;
+    border:2px solid #757575;
+    border-radius: 5px;
+}
+
+.offlineSale-products .offline-product-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid #90a4ae;
+    padding: 10px;
+}
+
+
+.offlineSale-products .quantity-input {
+    width: 75%;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: unset;
+    margin: auto 0;
+    border: 1px solid #90a4ae;
+    background: #fff;
+    vertical-align: center;
+}
+
+.quantity-input:focus {
+    height: 20px;
+    border: 1px solid #90a4ae;
+    background: #fff;
+    font-size: 12px;
+    line-height: unset;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: initial;
+    outline: unset;
+}
+
+.offlineSale-products .quantity-input-button, .quantity-input-button:focus{
+    height: 20px;
+    border: 1px solid #90a4ae;
+    background: #fff;
+    width: 20px;
+    font-size: 12px;
+    line-height: unset;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: initial;
+    outline: unset;
+}
+
+.quantity-input::-webkit-outer-spin-button, .quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+@media (max-width: 767px) {
+    .common-inventory-header nav a {
+        margin: auto 5px;
+    }
+}
