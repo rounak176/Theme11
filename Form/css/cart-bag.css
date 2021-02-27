@@ -38,3 +38,18 @@
     vertical-align: initial;
     outline: unset;
 }
+
+.cart-table tr, .cart-table td {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .cart-table tr, .cart-table td {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .cart-table p , .cart-table h5 {
+        font-size: 0.8rem;
+    }
+}

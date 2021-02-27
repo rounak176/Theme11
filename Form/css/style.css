@@ -91,11 +91,19 @@
     margin: 15px auto;
 }
 
-.inventory-form input, .made_to_order_form input  {
+.inventory-form label {
+    font-size: 0.9rem;
+}
+
+.inventory-form input , .inventory-form select, .made_to_order_form input  {
     border: 1px solid #ced4da;
     padding: 5px;
     border-radius: 5px;
     width: 80%;
+    cursor: text;
+}
+
+.inventory-form select {
     cursor: pointer;
 }
 

@@ -42,25 +42,90 @@
         <div class="row py-3 py-md-5">
             <form class="inventory-form">
                 <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-12">
                         <h5 class="mb-4">Cut off time for the order to be
                             shipped the next day?
                         </h5>
                         <input type="time" id="cutOff" name="cutOff"
                                min="12:00" max="24:00" value="08:30" required/>
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-12">
+                        <h5 class="mb-4">What is the Delivery charge for the customers?</h5>
+                        <div class="row">
+                            <div class="col-md-4 mb-0 mt-auto">
+                                <label>Currency *</label>
+                                <input type="text" class="mb-3" required/>
+                            </div>
+                            <div class="col-md-4 mb-0 mt-auto">
+                                <label>Within City Time *</label>
+                                <input type="number" class="mb-3" min="0" max="4" required/>
+                            </div>
+                            <div class="col-md-4 mb-0 mt-auto">
+                                <label>Outside City Time *</label>
+                                <input type="number" class="mb-3" min="1" max="5" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <h5 class="mb-4">Billing information Details</h5>
+                        <div class="row">
+                            <div class="col-md-3 mb-0 mt-auto">
+                                <label>What is your FSSAI no#</label>
+                                <input type="text" class="mb-3" required/>
+                            </div>
+                            <div class="col-md-3 mb-0 mt-auto">
+                                <label>What is your GST no#</label>
+                                <input type="text" class="mb-3" required/>
+                            </div>
+                            <div class="col-md-3 mb-0 mt-auto">
+                                <label>Are you product prices inclusive of GST?</label>
+                                <select class="mb-3">
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 mb-0 mt-auto">
+                                <label>Do you want to send a receipt to your customer</label>
+                                <select class="mb-3">
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <h5 class="mb-4">
+                            Is the delivery free above a certain order value?
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Intercity*</p>
+                                <input type="number" class="mb-3" min="0" max="4" required>
+
+                            </div>
+                            <div class="col-md-6">
+                                <p>Outside City*</p>
+                                <input type="number" class="mb-3" min="1" max="5" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
                         <h5 class="mb-4">
                             How many days will it take to
                             reach the customer after
                             Order date?
                         </h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Within City Time *</p>
+                                <input type="number" class="mb-3" min="0" max="4" required>
 
-                        <p>Within City Time *</p>
-                        <input type="number" class="mb-3" min="0" max="4" required>
-
-                        <p>Outside City Time *</p>
-                        <input type="number" class="mb-3" min="1" max="5" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Outside City Time *</p>
+                                <input type="number" class="mb-3" min="1" max="5" required>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group col-md-12 text-center">
                         <h5 class="mb-4">Additional delivery related note
